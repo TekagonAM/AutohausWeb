@@ -1,0 +1,278 @@
+#mywebicon{
+    border-radius: 500%;
+}
+
+body{
+    background-image: url(images/Autohausimg.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+/*Titel*/
+
+header h1{
+    color:white;
+    text-align: center;
+    margin:20px;
+    font-size:50px;
+    transform: translate(0px, 9px);
+    text-shadow: 2px 2px 2px lightblue, 2px 2px 3px blue, 3px 3px 5px red;
+}
+
+/*Tekagon Logo*/
+
+.navibar img{
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    border-radius: 200px;
+    transform: translate(70px, 107.5px);
+    box-shadow: 0px 0px 10px white;
+}
+
+/*Navigation Bar Menu*/
+
+.navibar{
+    transform: translate(0px, -100px);
+}
+
+.navibar a{
+    color:gray;
+    float:left;
+    margin:15px;
+    padding: 10px;
+    font-size:20px;
+    transform: translateX(65vh);
+    text-decoration: none;
+    border-radius: 500px;
+}
+
+.navibar ul{
+    list-style-type: none;
+    width: auto;
+    overflow: hidden;
+    background-color:white;
+    border-radius:200px;
+}
+
+.navibar li::marker{
+    content:none;
+}
+
+.navibar a:hover{
+    color:blue;
+    font-weight: bold;
+    background-color: lightblue;
+    border-radius: 25px;
+    cursor:pointer;
+}
+.navibar a:hover::first-letter{
+    color:red;
+    text-shadow: 0px 0px 5px red;
+}
+
+.active a{
+    background-color:blue;
+    color:white;
+}
+
+.active a::first-letter{
+    color:red;
+}
+
+/*Main - AlleBilderContainer - Hier werden gesamte Bilder gesammelt*/
+
+#container{
+    width: auto;
+    height: 100%;
+    /*background-color:yellow;*/
+    margin: 3%;
+}
+
+.carholder{
+    width: 550px;
+    margin: 150px;
+    padding:2px;
+    display:inline-block;
+}
+
+
+.carholder{
+    border: 3px solid gray;
+    height: 480px;
+    background-color:hsla(0, 0%, 30%, 0.795);
+}
+
+.carholder img{
+    width: 100%;
+    height: 350px;
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+
+.descripction{
+    transform: translateX(-22px);
+    float:left;
+    color:white;
+    text-shadow: 0px 0px 15px black;
+    margin-left: 25px;
+    margin-top: -18px;
+}
+
+.descripction ul{
+    margin-left:0px;
+    padding:0px;
+    background-color:none;
+}
+
+.descripction li::marker{
+    content: none;
+}
+
+.descripction li{
+    font-size:20px;
+}
+
+.des{
+    color:white;
+    font-size:30px;
+    transform: translate(0px, -25px);
+}
+
+#preis{
+    margin-top:10px;
+    text-align: center;
+    width: 300px;
+    font-size:30px;
+    margin-left:-3px;
+    text-shadow: 0px 0px 5px blue;
+}
+
+/*Kaufen Knopf*/
+.buy{
+    clear:both;
+    background-color:blue;
+    height:40px;
+    border: 3px solid grey;
+    transform: translate(-5px, -80px);
+    width: 304px;
+    margin-top: 100px;
+}
+
+.buy p{
+    text-align: center;
+    font-size:30px;
+    transform:translateY(-26px);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.carholder:hover{
+    box-shadow:0px 0px 10px white;
+    border: 3px solid blue;
+    cursor:pointer;
+}
+
+.buy:hover{
+    border: 3.8px solid yellow;
+    cursor:pointer;
+    box-shadow:0px 0px 10px white;
+}
+
+.buy:hover p{
+    text-shadow: 1px 1px 2px yellow;
+    color:white;
+}
+
+.buy:active p{
+    color:rgb(83, 83, 83);
+}
+
+/*About us*/
+#aboutusdiv h1{
+    color:white;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 100px;
+}
+
+#autohauspic{
+    width: auto;
+    height: auto;
+    margin-left: 18%;
+}
+
+/*ALLE Modelle*/
+
+.carholder2{
+    width: 1300px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    border: 3px solid gray;
+    height:400px;
+    background-color:hsla(0, 0%, 30%, 0.795);
+}
+
+.carholder2 img{
+    width: 600px;
+    height: 100%;
+    margin-left:0px;
+}
+
+.descripction2{
+    color:white;
+    text-shadow: 0px 0px 15px black;
+}
+
+.descripction2 li{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.descripction2 li::marker{
+    content:none;
+}
+
+#preis2{
+    margin-top:50%;
+    color:cyan;
+    text-shadow: 1px 1px 2px white;
+}
+
+.buy2{
+    clear:both;
+    background-color:blue;
+    height:40px;
+    border: 3px solid grey;
+    width: 304px;
+    transform: translate(61px, 365px);
+}
+
+.buy2 p{
+    text-align: center;
+    font-size:30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+    transform: translate(0px, -27px);
+}
+
+.buy2:hover{
+    border-color: yellow;
+    cursor: pointer;
+}
+
+.buy2:hover p{
+    color:yellow;
+    text-shadow: 1px 1px 2px black;
+}
+
+.buy2:active p{
+    color:red;
+}

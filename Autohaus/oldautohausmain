@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Autohaus Tekagon </title>
+    <link rel="icon" href="images/TekagonLogo176.jpg" id="mywebicon">
+    <link rel="stylesheet" href="AutohausStyle.css">
+</head>
+
+<body>
+    
+    <header>
+        <h1>
+            Tekagon Company
+        </h1>
+
+    </header>
+
+    <nav class="navibar">
+        <img src="images/TekagonLogo.jpg">
+        <ul>
+            <li class="active"><a href="Autohaus.html">Home Page</a></li>
+            <li><a href="allemodelle.html">Alle Modelle</a></li>
+            <li><a href="aboutus.html">Uber uns</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="container">
+
+
+            <div class="carholder">
+                    <a><img src="cars/BMW-M5-2017.jpg"></a>
+                    <br>
+                    <div class="descripction">
+                        <ul>
+                            <li>Marke: BMW</li>
+                            <li>Modell: M5 Competition</li>
+                            <li>Karroserie Code: F90</li>
+                            <li>Baujahr: 2017</li>
+                            <li>Motor: 4.4L V8</li>
+                            <li>Leistung: 625 PS</li>
+                    
+                            <li id="preis">Preis: 69.500 Euro</li>
+                        </ul>
+                    </div>
+                    <div class="buy">
+                        <p>Jetzt kaufen</p>
+                    </div>
+            </div>
+
+            <div class="carholder">
+                    <a><img src="cars/BMW-M3-2018.jpg"></a>
+                    
+                    <div class="descripction">
+                        <ul>
+                            <li>Marke: BMW</li>
+                            <li>Modell: M3 Competition</li>
+                            <li>Karroserie Code: F80</li>
+                            <li>Baujahr: 2017</li>
+                            <li>Motor: 3.0L I6</li>
+                            <li>Leistung: 450 PS</li>
+                            <li id="preis">Preis: 45.900 Euro</li>
+                        </ul>
+                    </div>
+                    <div class="buy">
+                        <p>Jetzt kaufen</p>
+                    </div>
+            </div>
+
+            <div class="carholder">
+                <a><img src="cars/BMW-M3-2018.jpg"></a>
+                
+                <div class="descripction">
+                    <ul>
+                        <li>Marke: BMW</li>
+                        <li>Modell: M3 Competition</li>
+                        <li>Karroserie Code: F80</li>
+                        <li>Baujahr: 2017</li>
+                        <li>Motor: 3.0L I6</li>
+                        <li>Leistung: 450 PS</li>
+                        <li id="preis">Preis: 45.900 Euro</li>
+                    </ul>
+                </div>
+                <div class="buy">
+                    <p>Jetzt kaufen</p>
+                </div>
+        </div>
+
+        <div class="carholder">
+            <a><img src="cars/BMW-M3-2018.jpg"></a>
+            
+            <div class="descripction">
+                <ul>
+                    <li>Marke: BMW</li>
+                    <li>Modell: M3 Competition</li>
+                    <li>Karroserie Code: F80</li>
+                    <li>Baujahr: 2017</li>
+                    <li>Motor: 3.0L I6</li>
+                    <li>Leistung: 450 PS</li>
+                    <li id="preis">Preis: 45.900 Euro</li>
+                </ul>
+            </div>
+            <div class="buy">
+                <p>Jetzt kaufen</p>
+            </div>
+    </div>
+
+            <div class="carholder">
+                <a><img src="cars/BMW-M2-2017.jpg"></a>
+                
+                <div class="descripction">
+                    <ul>
+                        <li>Marke: BMW</li>
+                        <li>Modell: M2 Competition</li>
+                        <li>Karroserie Code: F87</li>
+                        <li>Baujahr: 2017</li>
+                        <li>Motor: 3.0L I6</li>
+                        <li>Leistung: 410 PS</li>
+                        <li id="preis">Preis: 41.900 Euro</li>
+                    </ul>
+                </div>
+                <div class="buy">
+                    <p>Jetzt kaufen</p>
+                </div>
+        </div>
+
+        <div class="carholder">
+            <a><img src="cars/BMW-M3-2018.jpg"></a>
+            
+            <div class="descripction">
+                <ul>
+                    <li>Marke: BMW</li>
+                    <li>Modell: M3 Competition</li>
+                    <li>Karroserie Code: F80</li>
+                    <li>Baujahr: 2017</li>
+                    <li>Motor: 3.0L I6</li>
+                    <li>Leistung: 450 PS</li>
+                    <li id="preis">Preis: 45.900 Euro</li>
+                </ul>
+            </div>
+            <div class="buy">
+                <p>Jetzt kaufen</p>
+            </div>
+    </div>
+
+            <div class="carholder">
+                <a><img src="cars/BMW-M4-2017.jpg"></a>
+                
+                <div class="descripction">
+                    <ul>
+                        <li>Marke: BMW</li>
+                        <li>Modell: M4 Competition</li>
+                        <li>Karroserie Code: F82</li>
+                        <li>Baujahr: 2017</li>
+                        <li>Motor: 3.0L I6</li>
+                        <li>Leistung: 450 PS</li>
+                        <li id="preis">Preis: 44.500 Euro</li>
+                    </ul>
+                </div>
+                <div class="buy">
+                    <p>Jetzt kaufen</p>
+                </div>
+            </div>
+
+            <div class="carholder">
+            <a><img src="cars/BMW-X5M-2017.jpg"></a>
+            
+            <div class="descripction">
+                <ul>
+                        <li>Marke: BMW</li>
+                        <li>Modell: X5M Competition</li>
+                        <li>Karroserie Code: F85</li>
+                        <li>Baujahr: 2017</li>
+                        <li>Motor: 4.4L V8</li>
+                        <li>Leistung: 575 PS</li>
+                        <li id="preis">Preis: 41.500 Euro</li>
+                    </ul>
+                </div>
+                <div class="buy">
+                    <p>Jetzt kaufen</p>
+                </div>
+            </div>
+
+        <div class="carholder">
+        <a><img src="cars/BMW-X6M-2018.jpg"></a>
+        
+            <div class="descripction">
+                <ul>
+                        <li>Marke: BMW</li>
+                        <li>Modell: X6M Competition</li>
+                        <li>Karroserie Code: F86</li>
+                        <li>Baujahr: 2018</li>
+                        <li>Motor: 4.4L V8</li>
+                        <li>Leistung: 575 PS</li>
+                        <li id="preis">Preis: 48.800 Euro</li>
+                    </ul>
+            </div>
+            <div class="buy">
+                <p>Jetzt kaufen</p>
+            </div>
+        </div>
+
+
+        </div>
+    </main>
+
+</body>
+</html>
